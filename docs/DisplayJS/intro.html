@@ -23,5 +23,26 @@
   &lt;head&gt;<b>&lt;script src="https://brunozhon.github.io/api/DisplayJS/display.min.js"&gt;&lt;/script&gt;</b>&lt;/head&gt;
 &lt;/html&gt;
     </pre>
+    <h2>Using DisplayJS</h2>
+    <p>How to create a webpage using DisplayJS in 3 steps:</p>
+    <h3>Step 1</h3>
+    <p>Add HTML or download a HTML template. Example:</p>
+    <textarea rows="100" cols="6">
+&lt;html&gt;
+    &lt;head&gt;&gt;!--Add DisplayJS here--&lt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1 id="demo"&gt;&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+    </textarea>
+    <h3>Step 2</h3>
+    <p>Add <code>&lt;script src="https://brunozhon.github.io/api/DisplayJS/display.min.js"&gt;&lt;/script&gt;</code> in the head element</p>
+    <h3>Step 3 (THIS STEP IS MY FAVORITE!)</h3>
+    <p>Add functions to your JavaScript!</p>
+    <textarea rows="100" cols="3">
+&lt;script&gt;
+    displayjs.bindToId("demo", "This heading used DisplayJS");
+&lt;/script&gt;
+    </textarea>
   </body>
 </html>
