@@ -1,0 +1,12 @@
+// Import functions
+import 'https://brunozhon.github.io/api/DisplayJS/displayjs.min.js';
+// Add code
+displayjs.bindToElem("myElem", "Hello world!");
+displayjs.bindToId("myId", "Hello world, for ID!");
+displayjs.bindToElems("myElemCollection", "We all get affected!")
+var myvar = document.getElementsByClassName("myClass");
+for (var i = 0; i < myvar.length; i++) {
+  displayjs.bindByVar(myvar, i, "This is a varible-declared execution", true);
+}
+// You can even import other libarys
+import 'https://www.w3schools.com/js/w3.js';
